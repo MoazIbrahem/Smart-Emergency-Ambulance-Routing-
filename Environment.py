@@ -40,7 +40,7 @@ class SmartAmbulanceEnv(gym.Env):
         car_move_rate (int): Frequency of car movements (every N steps).
     """
 
-    def __init__(self, size=20, seed=42):
+    def __init__(self, size=20, seed=69):
         self.size = size
         self.rows = size
         self.cols = size
