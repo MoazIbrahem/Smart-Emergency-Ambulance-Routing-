@@ -11,16 +11,6 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # 1. LEARNING CURVE
 
 def plot_learning_curve(rewards: list, algo_name: str, window: int = 30, save: bool = True):
-    """
-    Plot total reward per episode with a smoothed moving-average overlay.
-
-    Parameters
-    ----------
-    rewards   : list of floats — reward per training episode.
-    algo_name : str  — label used in the title and saved filename.
-    window    : int  — window size for the moving average (default 30).
-    save      : bool — save PNG to OUTPUT_DIR if True.
-    """
     fig, ax = plt.subplots(figsize=(10, 5))
 
     ax.plot(rewards, alpha=0.3, color="steelblue", label=f"{algo_name} (raw)")
