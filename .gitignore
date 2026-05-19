@@ -3,19 +3,3 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Images
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
-*.svg
-
-# Videos
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-
-eval_results.json
